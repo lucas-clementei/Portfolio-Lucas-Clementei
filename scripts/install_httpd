@@ -9,8 +9,8 @@ LoadModule proxy_module modules/mod_proxy.so
 LoadModule proxy_http_module modules/mod_proxy_http.so
 
 ProxyRequests Off
-ProxyPass / http://localhost:3000/
-ProxyPassReverse / http://localhost:3000/
+ProxyPass / http://localhost:80/
+ProxyPassReverse / http://localhost:80/
 
 <Location "/">
   Order allow,deny
