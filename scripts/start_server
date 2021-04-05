@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /home/ec2-user/node-website
 export NODE_ENV=production
-forever start -c "npm start" ./
+forever start -c "node fetch.js && react-scripts start" ./
