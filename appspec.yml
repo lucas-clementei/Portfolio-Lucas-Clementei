@@ -8,7 +8,7 @@ files:
 - source: /public/
   destination: /home/ec2-user/node-website/public
 - source: /fetch.js
-  destination: /home/ec2-user/node-website/fetch.js
+  destination: /home/ec2-user/node-website
 - source: /scripts/requirements.txt
   destination: /home/ec2-user/scripts
 hooks:
