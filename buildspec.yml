@@ -34,4 +34,6 @@ artifacts:
     - scripts/*
     - node_modules/**/*
     - public/**/*
+    - src/*
+    - fetch.js
     - template-configuration.json
