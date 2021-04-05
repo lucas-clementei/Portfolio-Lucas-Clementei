@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Lucas Clementei",
+  title: "Bonjour, je suis Lucas !",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Développeur Full Stack 🎯 curieux du monde et des technologies qui l'entourent"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -22,13 +22,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/sticky01310",
+  linkedin: "www.linkedin.com/in/lucas-clémenteï",
+  gmail: "clementeilucas@gmail.com",
+  gitlab: "https://gitlab.com/lucas.clementei",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -36,7 +33,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Mes compétences ?",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
@@ -61,10 +58,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -75,10 +68,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -93,17 +82,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -114,24 +103,44 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "CPE Lyon",
+      logo: require("./assets/images/cpelyon-logo.png"),
+      subHeader: "Diplôme d'ingénieur Informatique et Réseaux de communication",
+      duration: "Sept 2018 - Septembre 2021",
+      desc: "Formation d'ingénieur visant à former des spécialistes des systèmes d’information et de communication.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Back End : Springboot, .NET, NestJS, Flask, Java EE",
+        "Front End : ReactJS, React Native, Materials-UI, Bootstrap, HTML, CSS, Javascript",
+        "Serveur Web : Apache HTTP Server, NodeJS, nginx, Apache Tomcat",
+        "API : GraphQL, REST",
+        "Architecture SI : Microservices, SOA, ESB, Monolithic",
+        "DevOps: Docker, Git, GitLab, Gitlab CI, SonarQube",
+        "Big Data : HDFS, Apache Hive, Scala, Apache Spark , Tableau, Grafana, Azure ML",
+        "Bases de données: MongoDB, PostgreSQL, MySQL, influxDB, Elasticsearch",
+        "Réseaux : Routage statique/dynamique, DHCP, NAT/PAT, STP, ACL, RIP, OSPF, BGP",
+        "Securité : Reverse Proxy, Kerberos, Tacacs, JWT, OAuth"
+        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Université du Québec à Chicoutimi",
+      logo: require("./assets/images/uqac-logo.png"),
+      subHeader: "Bachelor d'Informatique",
+      duration: "Janvier 2018 - Juillet 2018",
+      desc: "Quatrième Semestre de DUT à l’étranger",
+      descBullets: [
+      "Informatique Mobile",
+      "Modélisation et développement objet",
+      "Calcul avancé",
+      "Ethique Informatique"]
+    },
+    {
+      schoolName: "IUT Lyon 1",
+      logo: require("./assets/images/lyon1-logo.png"),
+      subHeader: "Diplôme Universitaire Technologique d'Informatique",
+      duration: "September 2016 - Janvier 2018",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "Formation à dominante pratique amenant à travailler sur beaucoup de projets touchant différents langages et domaine de l'informatique."
     }
   ]
 };
@@ -164,7 +173,7 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
+      company: "SFR",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc:
@@ -176,20 +185,12 @@ const workExperiences = {
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
+      company: "UQAC",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -318,7 +319,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -337,7 +338,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -350,22 +351,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactez-moi ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+33 6 52 05 62 66",
+  email_address: "clementeilucas@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
